@@ -1,0 +1,56 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+
+  height: 300px;
+}
+
+.temperature_control_container {
+  width: 400px;
+  height: 100%;
+  background-color: rgb(51, 86, 124);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.temperature_control {
+  border-radius: 2px solid white;
+  background-color: aliceblue;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.temperature_control h2 {
+  text-align: center;
+  padding-top: 20px;
+}
+.buttonContainer {
+  display: flex;
+  gap: 30px;
+}
+.mybutton {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  font-size: 30px;
+  background-color: rgb(80, 90, 101);
+  color: white;
+  border: 2px solid white;
+}
+
+.neutral {
+  background-color: rgb(184, 184, 184);
+}
+.cold {
+  background-color: #035aa6;
+}
+.hot {
+  background-color: #ff5200;
+}
